@@ -1,0 +1,12 @@
+.v-adding {
+  min-height: 100vh;
+  background: #e5e5e5;
+  .detail {
+    &-body {
+        background-color: white;
+        margin: 12px 0;
+        padding: 1rem 0;
+        border-radius: 12px;
+    }
+  }
+}

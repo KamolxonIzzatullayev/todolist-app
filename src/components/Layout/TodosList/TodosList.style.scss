@@ -1,0 +1,16 @@
+.c-l-todo {
+  .todo {
+    &-item {
+      cursor: pointer;
+      background: white;
+
+      &.active {
+        background: rgb(41, 213, 41);
+      }
+
+      &:hover {
+        box-shadow: 1px 1px 15px rgba($color: #000000, $alpha: 0.1);
+      }
+    }
+  }
+}
